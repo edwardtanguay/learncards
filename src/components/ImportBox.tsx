@@ -6,7 +6,10 @@ export const ImportBox = () => {
 
 	return (
 		<div className="importBox">
-			nnn
+			<h2>Learn cards to parse:</h2>
+			<textarea>{store.inputText}</textarea>	
+			<h2>Learn cards JSON:</h2>
+			<textarea>{store.outputText}</textarea>	
 		</div>
 	);
 };

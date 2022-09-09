@@ -30,6 +30,7 @@ body {
 						color: #aaa;
 						cursor: pointer;
 					}
+
 					div.back {
 						margin-top: .5rem;
 						color: lightgreen;
@@ -39,10 +40,6 @@ body {
 			}
 
 			section.dataArea {
-				h2 {
-					margin: 0 0 1rem 0;
-				}
-
 				.importBox {
 					background-color: #777;
 					padding: 1rem;
@@ -50,41 +47,18 @@ body {
 					border-radius: 1rem;
 					color: #222;
 
-					label {
-						font-weight: bold;
+					h2 {
+						margin: 0 0 0 0;
 					}
 
-					.theValue {
-						color: $dataColor;
+					textarea {
+						width: 98%;
+						height: 10rem;
+						margin-top: .5rem;
+						margin-bottom: 1rem;
+						background-color: #aaa;
 					}
 
-					div.row {
-						margin: 0 0 .5rem 0;
-
-						ul {
-							margin: .5rem 0 0 -.5rem;
-
-							li {
-								color: $dataColor;
-							}
-						}
-
-						.spinner {
-							font-size: 2rem;
-							color: #444;
-							animation: spin infinite 2s linear;
-						}
-
-						@keyframes spin {
-							from {
-								transform: rotate(0deg);
-							}
-
-							to {
-								transform: rotate(360deg);
-							}
-						}
-					}
 				}
 			}
 		}

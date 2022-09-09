@@ -15,11 +15,15 @@ export interface ILearnCard {
 interface IStore {
 	learnCards: ILearnCard[];
 	setLearnCards: (learnCards: ILearnCard[]) => void;
+	inputText: string;
+	outputText: string;
 }
 
 export const useStore = create<IStore>(
 	(set): IStore => ({
 		learnCards: [],
 		setLearnCards: (learnCards: ILearnCard[]) => set((state) => ({ ...state, learnCards })),
+		inputText: 'iii',
+		outputText: 'ooo'
 	})
 );

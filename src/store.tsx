@@ -6,6 +6,7 @@ interface ILearnCard {
 	front: string;
 	back: string;
 	learned: boolean;
+	timesTested: number;
 	whenLastTested: string;
 	whenCreated: string;
 }

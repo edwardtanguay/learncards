@@ -1,0 +1,20 @@
+[
+	{
+		"category": "spanish",
+		"front": "the cost amounted to twelve pesos",
+		"back": "el gasto llegó a doce pesos",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-10 00:44:55"
+	},
+	{
+		"category": "spanish",
+		"front": "what a waste of energy",
+		"back": "qué gasto de energía",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-10 00:45:55"
+	}
+]

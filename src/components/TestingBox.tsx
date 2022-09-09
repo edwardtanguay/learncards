@@ -13,7 +13,7 @@ export const TestingBox = () => {
 		<div className="testingBox">
 			{store.learnCards.map((learnCard: ILearnCard, i) => {
 				return (
-					<div className="learnCard">
+					<div className="learnCard" key={i}>
 						<div className="front" onClick={() => toggleLearnCardShowing(learnCard)}>{learnCard.front}</div>
 						{learnCard.isShowing && (
 							<div className="back">{learnCard.back}</div>

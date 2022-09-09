@@ -16,7 +16,9 @@ interface IStore {
 	learnCards: ILearnCard[];
 	setLearnCards: (learnCards: ILearnCard[]) => void;
 	inputText: string;
+	setInputText: (text: string) => void;
 	outputText: string;
+	setOutputText: (text: string) => void;
 }
 
 export const useStore = create<IStore>(
@@ -24,6 +26,8 @@ export const useStore = create<IStore>(
 		learnCards: [],
 		setLearnCards: (learnCards: ILearnCard[]) => set((state) => ({ ...state, learnCards })),
 		inputText: '',
-		outputText: ''
+		setInputText: (inputText: string) => set((state) => ({ ...state, inputText })),
+		outputText: '',
+		setOutputText: (outputText: string) => set((state) => ({ ...state, outputText }))
 	})
 );

@@ -23,7 +23,7 @@ export const useStore = create<IStore>(
 	(set): IStore => ({
 		learnCards: [],
 		setLearnCards: (learnCards: ILearnCard[]) => set((state) => ({ ...state, learnCards })),
-		inputText: 'iii',
-		outputText: 'ooo'
+		inputText: '',
+		outputText: ''
 	})
 );

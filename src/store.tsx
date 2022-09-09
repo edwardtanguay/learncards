@@ -1,7 +1,7 @@
 import create from 'zustand';
 import axios from 'axios';
 
-interface ILearnCard {
+export interface ILearnCard {
 	category: string;
 	front: string;
 	back: string;
@@ -9,6 +9,7 @@ interface ILearnCard {
 	timesTested: number;
 	whenLastTested: string;
 	whenCreated: string;
+	isShowing: boolean;
 }
 
 interface IStore {

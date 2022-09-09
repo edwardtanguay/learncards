@@ -1,24 +1,30 @@
-import { useStore } from './store';
+import { ILearnCard, useStore } from './store';
 import { useRef, useEffect } from 'react';
 import './App.scss';
 import { ImportBox } from './components/ImportBox';
-import _learnCards from './data/learnCards.json';
+import { TestingBox } from './components/TestingBox';
+import loadedlearnCards from './data/learnCards.json';
 
 function App() {
 	const store = useStore((state) => state);
 	const techBookSearchRef = useRef<HTMLInputElement>(null);
 
 	useEffect(() => {
-		store.setLearnCards(_learnCards);	
+		const _learnCards: ILearnCard[] = [];
+		loadedlearnCards.forEach(loadedlearnCard => {
+			const _learnCard: ILearnCard= { ...loadedlearnCard, isShowing: false };
+			_learnCards.push(_learnCard);
+		});
+		_learnCards.sort((a: ILearnCard, b: ILearnCard) => { return a.whenCreated > b.whenCreated ? 1 : 0 });
+		store.setLearnCards(_learnCards);
 	}, []);
 
 	return (
 		<div className="App">
 			<h1>{store.learnCards.length} Learn Cards</h1>
-
 			<main>
-				<section className="controlArea">
-				
+				<section className="displayArea">
+					<TestingBox />
 				</section>
 
 				<section className="dataArea">

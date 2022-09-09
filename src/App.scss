@@ -8,37 +8,34 @@ body {
 
 	.App {
 
+		h1 {
+			margin: 0 0 2rem 0;
+		}
+
 		main {
 			display: flex;
 			gap: 1rem;
 
-			section.controlArea {
+
+			section.displayArea {
 				width: 30rem;
 
-				h1 {
-					margin: 0 0 1rem 0;
-				}
-
-				div.data {
-					background-color: #434343;
-					margin: 0 0 1rem 0;
+				div.learnCard {
+					background-color: #222;
 					padding: 1rem;
+					margin-bottom: 1rem;
 					border-radius: .5rem;
 
-					label {
-						margin: 0 0 .5rem 0;
-						display: block;
+					div.front {
+						color: #aaa;
+						cursor: pointer;
 					}
-
-					input {
-						width: 98%;
-						display: block;
-					}
-
-					button {
-						margin: 0 .2rem .2rem 0;
+					div.back {
+						margin-top: .5rem;
+						color: lightgreen;
 					}
 				}
+
 			}
 
 			section.dataArea {

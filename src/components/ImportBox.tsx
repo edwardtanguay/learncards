@@ -10,13 +10,20 @@ export const ImportBox = () => {
 			text += '\n';
 			const _lines = text.split('\n');
 			const lines: string[] = [];
-			let holdLines:string[] = [];
+			let holdLines: string[] = [];
 			_lines.forEach((line: string) => {
-				console.log(line);
 				if (line !== '') {
 					holdLines.push(line);
 				} else {
-					lines.push('newline');
+					const front = holdLines[0];
+					const back = holdLines[1];
+					const parsedText = `{
+	"category": "spanish",
+	"front": "${front}",
+	"back": "${back}"
+}`;
+					lines.push(parsedText);
+					holdLines = [];
 				}
 			});
 			const parsedText = lines.join('\n');

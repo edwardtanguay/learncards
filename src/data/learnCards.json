@@ -1,6 +1,213 @@
 [
 	{
 		"category": "spanish",
+		"front": "verb: volver",
+		"back": "to return, to go back; irregular; o>ue; pres: vuelvo, vuelves, vuelve, vuelven; pastpart: vuelto",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-10 09:19:03"
+	},
+	{
+		"category": "spanish",
+		"front": "I may come back",
+		"back": "tal vez pueda volver",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-10 09:18:14"
+	},
+	{
+		"category": "spanish",
+		"front": "I unfolded the map on the desk",
+		"back": "desplegué el mapa sobre el escritorio",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-10 09:12:26"
+	},
+	{
+		"category": "spanish",
+		"front": "verb: desplegar",
+		"back": "to deploy, to spred out; irregular; e>ie, gé>gué; pres: despliego, despliegas, despliega, despliegan; pret: desplegué",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-10 09:08:35"
+	},
+	{
+		"category": "spanish",
+		"front": "we've got to stick to the facts",
+		"back": "tenemos que ceñirnos a los hechos",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-10 08:57:16"
+	},
+	{
+		"category": "spanish",
+		"front": "verb: ceñir",
+		"back": "to stick to something; e>i; irregular; pres: ciño, ciñes, ciñe, ciñen; pret: ciñó, ciñieron",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-10 08:45:08"
+	},
+	{
+		"category": "spanish",
+		"front": "I'll stick to my original plan",
+		"back": "me ceñiré a mi plan original",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-10 08:46:42"
+	},
+	{
+		"category": "spanish",
+		"front": "you all see here that",
+		"back": "así veis que",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-10 02:56:32"
+	},
+	{
+		"category": "spanish",
+		"front": "every time you all see",
+		"back": "cada vez que veáis",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-10 02:59:02"
+	},
+	{
+		"category": "spanish",
+		"front": "I want you to see this",
+		"back": "quiero que veas esto",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-10 03:00:18"
+	},
+	{
+		"category": "spanish",
+		"front": "I want you all to see this",
+		"back": "quiero que veáis esto",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-10 03:00:18"
+	},
+	{
+		"category": "spanish",
+		"front": "they can be used",
+		"back": "se pueden utilizar",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-10 02:53:11"
+	},
+	{
+		"category": "spanish",
+		"front": "depending on performance",
+		"back": "dependiendo del rendimiento",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-10 02:47:42"
+	},
+	{
+		"category": "spanish",
+		"front": "he sticks to his principles",
+		"back": "él se ciñe a sus principios",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-10 02:40:26"
+	},
+	{
+		"category": "spanish",
+		"front": "he sticks with his own theory",
+		"back": "él se ciñe a su propia teoría",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-10 02:40:43"
+	},
+	{
+		"category": "spanish",
+		"front": "complete waste of resources",
+		"back": "total derroche de recursos",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-09 20:57:56"
+	},
+	{
+		"category": "spanish",
+		"front": "PR.vallarlas",
+		"back": "bar-JAR-lass - to fence them in",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-09 21:14:01"
+	},
+	{
+		"category": "spanish",
+		"front": "are usually optimized (tend to be optimized)",
+		"back": "suelen estar optimizados",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-09 21:14:03"
+	},
+	{
+		"category": "spanish",
+		"front": "reducing spending",
+		"back": "reduciendo el gasto",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-09 21:17:31"
+	},
+	{
+		"category": "spanish",
+		"front": "we can go see",
+		"back": "podemos ir viendo",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-09 23:10:51"
+	},
+	{
+		"category": "spanish",
+		"front": "deployments",
+		"back": "despliegues",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-09 23:14:19"
+	},
+	{
+		"category": "spanish",
+		"front": "the matter is limited to two",
+		"back": "el asunto se ciñe a dos",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-10 00:08:25"
+	},
+	{
+		"category": "spanish",
+		"front": "if there is no error",
+		"back": "si no hay fallo",
+		"learned": false,
+		"timesTested": 0,
+		"whenLastTested": "",
+		"whenCreated": "2022-09-10 00:16:32"
+	},
+	{
+		"category": "spanish",
 		"front": "the cost amounted to twelve pesos",
 		"back": "el gasto llegó a doce pesos",
 		"learned": false,

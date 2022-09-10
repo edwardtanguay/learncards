@@ -15,7 +15,7 @@ function App() {
 			const _learnCard: ILearnCard= { ...loadedlearnCard, isShowing: false };
 			_learnCards.push(_learnCard);
 		});
-		_learnCards.sort((a: ILearnCard, b: ILearnCard) => { return a.whenCreated > b.whenCreated ? 1 : 0 });
+		_learnCards.sort((a: ILearnCard, b: ILearnCard) => { return a.whenCreated > b.whenCreated ? 0 : 1 });
 		store.setLearnCards(_learnCards);
 	}, []);
 

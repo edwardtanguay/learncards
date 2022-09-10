@@ -25,10 +25,10 @@ body {
 					padding: 1rem;
 					margin-bottom: 1rem;
 					border-radius: .5rem;
+					cursor: pointer;
 
 					div.front {
 						color: #aaa;
-						cursor: pointer;
 					}
 
 					div.back {
@@ -58,6 +58,10 @@ body {
 						margin-top: .5rem;
 						margin-bottom: 1rem;
 						background-color: #aaa;
+					}
+
+					textarea.outputText {
+						height: 20rem;
 					}
 
 					textarea,

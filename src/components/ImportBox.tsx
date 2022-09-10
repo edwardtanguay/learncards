@@ -1,5 +1,4 @@
 import { useStore } from '../store';
-import { FaSpinner } from 'react-icons/fa';
 
 export const ImportBox = () => {
 	const store = useStore((state) => state);
@@ -17,7 +16,13 @@ export const ImportBox = () => {
 				} else {
 					let front = holdLines[1].trim();
 					let back = holdLines[0].trim();
+					let whenCreated = holdLines[2].trim();
 					if (back.startsWith('PR.')) {
+						const hold = front;
+						front = back;
+						back = hold;
+					}
+					if (back.startsWith('verb: ')) {
 						const hold = front;
 						front = back;
 						back = hold;
@@ -25,8 +30,12 @@ export const ImportBox = () => {
 					const parsedText = `{
 	"category": "spanish",
 	"front": "${front}",
-	"back": "${back}"
-}`;
+	"back": "${back}",
+	"learned": false,
+	"timesTested": 0,
+	"whenLastTested": "",
+	"whenCreated": "${whenCreated}"
+},`;
 					lines.push(parsedText);
 					holdLines = [];
 				}
@@ -45,12 +54,17 @@ export const ImportBox = () => {
 		<div className="importBox">
 			<h2>Learn card text to parse:</h2>
 			<textarea
+				className="inputText"
 				value={store.inputText}
 				spellCheck="false"
 				onChange={handleInputTextChange}
 			></textarea>
-			<h2>Learn cards JSON to paste:</h2>
-			<textarea value={store.outputText} readOnly></textarea>
+			<h2>Learn card JSON to paste:</h2>
+			<textarea
+				value={store.outputText}
+				className="outputText"
+				readOnly
+			></textarea>
 		</div>
 	);
 };

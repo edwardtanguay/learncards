@@ -5,12 +5,19 @@ export const ImportBox = () => {
 	const store = useStore((state) => state);
 
 	const handleInputTextChange = (e: any) => {
-		const text = e.target.value;
+		let text = e.target.value;
 		if (text.trim() !== '') {
+			text += '\n';
 			const _lines = text.split('\n');
 			const lines: string[] = [];
+			let holdLines:string[] = [];
 			_lines.forEach((line: string) => {
-				lines.push(line + 'nnn');
+				console.log(line);
+				if (line !== '') {
+					holdLines.push(line);
+				} else {
+					lines.push('newline');
+				}
 			});
 			const parsedText = lines.join('\n');
 

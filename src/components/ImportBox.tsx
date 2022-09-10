@@ -15,8 +15,13 @@ export const ImportBox = () => {
 				if (line !== '') {
 					holdLines.push(line);
 				} else {
-					const front = holdLines[0];
-					const back = holdLines[1];
+					let front = holdLines[1].trim();
+					let back = holdLines[0].trim();
+					if (back.startsWith('PR.')) {
+						const hold = front;
+						front = back;
+						back = hold;
+					}
 					const parsedText = `{
 	"category": "spanish",
 	"front": "${front}",
